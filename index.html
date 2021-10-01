@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WhatsApp</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg1"></div>
+    <div class="bg2"></div>
+    <div class="layer1">
+        <div class="layer1-inr">
+            <div class="layer1-left">
+                <div class="layer1-left-a">
+                    <div class="profile-pic">
+                        <img src="img/profile-pic.jpg" id="profile-pic" alt="Profile Pic">
+                    </div>
+                    <div class="profile-options">
+                        <img src="img/charging-circle.png" class="i1" id="i1" alt="Status icon">
+                        <img src="img/chat.png" class="i2" id="i2" alt="New chat">
+                        <img src="img/menu.png" class="i3" id="i3" alt="Menu">
+                    </div>
+                </div>
+                <div class="lll">
+                    <div class="layer1-left-b">
+                        <div class="search-icon">
+                            <img src="img/search.png">
+                        </div>
+                        <!-- <div class="start-new-chat">Search or start new chat</div> -->
+                        <input type="text" id="search-cont" placeholder="Search or start new chat">
+                    </div>
+                </div>
+                <div class="layer1-left-c">
+                    <div class="chat1 cht">
+                        <div class="chat-1-img">
+                            <img src="img/chat1.jpg">
+                        </div>
+                        <div class="chat-1-details">
+                            <div class="chat-name">
+                                <p class="name" id="name">Palani Samy</p>
+                                <p class="time">10.54 PM</p>
+                            </div>
+                            <div class="chat-rply">
+                                <div class="chat-rply-1">
+                                    <img src="img/dslr-camera.png" class="camera" id="cam" alt="Photo up">
+                                    <p class="phto">Photo</p>
+                                </div>
+                                <p class="num">1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="chat2 cht">
+                        <div class="chat-1-img">
+                            <img src="img/chat2.jpg">
+                        </div>
+                        <div class="chat-1-details">
+                            <div class="chat-name">
+                                <p class="name">Jegan vinayak</p>
+                                <p class="time">yesterday</p>
+                            </div>
+                            <div class="chat-rply">
+                                <div class="chat-rply-1">
+                                    <p class="msg">on d way</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat3 cht">
+                        <div class="chat-1-img">
+                            <img src="img/chat3.jpg">
+                        </div>
+                        <div class="chat-1-details">
+                            <div class="chat-name">
+                                <p class="name">Noyal k Joseph</p>
+                                <p class="time">8/26/2021</p>
+                            </div>
+                            <div class="chat-rply">
+                                <div class="chat-rply-11">
+                                    <p class="msg">Nalakk apply panna poraa da</p>
+                                    <img src="img/mute.png" class="mute">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat4 cht">
+                        <div class="chat-1-img">
+                            <img src="img/chat4.jpg">
+                        </div>
+                        <div class="chat-1-details">
+                            <div class="chat-name">
+                                <p class="name">Pravin M</p>
+                                <p class="time">8/23/2021</p>
+                            </div>
+                            <div class="chat-rply">
+                                <div class="chat-rply-1">
+                                    <p class="msg">it's k bro. c u on friday</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat5 cht">
+                        <div class="chat-1-img">
+                            <img src="img/chat5-web development group.jpg">
+                        </div>
+                        <div class="chat-1-details">
+                            <div class="chat-name">
+                                <p class="name">Web development batch-1</p>
+                                <p class="time">8/22/2021</p>
+                            </div>
+                            <div class="chat-rply">
+                                <div class="chat-rply-1">
+                                    <p class="msg">it's k bro. c u on friday</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div> -->
+                    <!-- <div class="chat6 cht">
+                        <div class="chat-1-img">
+                            <img src="img/chat6.jpg">
+                        </div>
+                        <div class="chat-1-details">
+                            <div class="chat-name">
+                                <p class="name">Umesh</p>
+                                <p class="time">8/21/2021</p>
+                            </div>
+                            <div class="chat-rply">
+                                <div class="chat-rply-1">
+                                    <p class="msg">👍🏼</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="chat7 cht">
+                        <div class="chat-1-img">
+                            <img src="img/chat7.jpg">
+                        </div>
+                        <div class="chat-1-details">
+                            <div class="chat-name">
+                                <p class="name">Vishnu prakash</p>
+                                <p class="time">8/21/2021</p>
+                            </div>
+                            <div class="chat-rply">
+                                <div class="chat-rply-1">
+                                    <p class="msg">tell me when and where</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat8">
+                        <div class="chat-1-img">
+                            <img src="img/chat8.jpg">
+                        </div>
+                        <div class="chat-1-details"> -->
+                            <!-- <div class="chat-name">
+                                <p class="name">Novel paul</p>
+                                <p class="time">8/21/2021</p>
+                            </div>
+                            <div class="chat-rply">
+                                <div class="chat-rply-1">
+                                    <p class="msg">k dude</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div> 
+                
+                <div class="dot-menu" id="dot-menu">
+                    <ul class="dot-menu-list">
+                        <li class="dot-menu-1">New group</li>
+                        <li class="dot-menu-1">Create a room</li>
+                        <li class="dot-menu-1">Starred</li>
+                        <li class="dot-menu-1">Settings</li>
+                        <li class="dot-menu-1">Log out</li>
+                    </ul>
+                    <span class="dml"></span>
+                </div>
+            </div>
+
+
+
+
+            <div class="profile-vasanth" id="profile-vasu">
+                <div class="pv-1-inr">
+                    <div class="pv-1">
+                        <img src="img/next.png" alt="left-arrow" id="pro-vasu-img" class="left-arrow">
+                        <h1>Profile</h1>
+                    </div>
+                </div>
+                <div class="pv-2-inr">
+                    <div class="profile-pic-vasanth">
+                        <img src="img/profile-pic.jpg" class="vasanth-profile-pic" id="vasanth-pro-pic">
+                    </div>
+                    <!-- <div class="overlay">
+                        <img id="cam" src="img/pro pic cam.png">
+                        <p class="change pic">CHANGE PROFILE PHOTO</p>
+                    </div> -->
+                </div>
+                <div class="pv-3-inr">
+                    <p class="your-name">Your Name</p>
+                    <div class="username">
+                        <h2 class="user-name-vasanth">Vasanth Lakshmi</h2>
+                        <img class="edit-username" src="img/pencil.png">
+                    </div>
+                </div>
+                <div class="pv-4-inr">
+                    <p class="abt-username-pin">This is not your username or pin. This name will be visible to
+                        your WhatsApp contacts.
+                    </p>
+                </div>
+                <div class="pv-5-inr">
+                    <p class="your-name">About</p>
+                    <div class="username">
+                        <h2 class="user-name-vasanth">Stay Strong😎</h2>
+                        <img class="edit-username" src="img/pencil.png">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="new-chat" id="new-chat">
+                <div class="new-chat-1">
+                    <div class="new-chat-1-inr">
+                        <img src="img/next.png" alt="left-arrow" class="left-arrow" id="left-arrow">
+                        <h1>New chat</h1>
+                    </div>
+                </div>
+                <div class="new-chat-2">
+                    <div class="new-chat-2-inr">
+                        <div class="search-icon">
+                            <img src="img/search.png">
+                        </div>
+                        <!-- <div class="start-new-chat"> -->
+                            <input type="text" id="search-cont1" placeholder="Search contacts">
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="new-chat-scroll">
+                    <div class="new-chat-3">
+                        <div class="new-chat-3-inr">
+                            <img src="img/add-group.png" alt="add new group" class="new-grp-icon">
+                            <p class="new-g">New group</p>
+                        </div>
+                    </div>
+                    <div class="new-chat-4">
+                        <div class="new-chat-4-inr">
+                            <p>FREQUENTLY CONTACTED</p>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc1.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Abijith</p>
+                                <p class="status5">Available</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc2.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Vishnu</p>
+                                <p class="status5">I hate math, but I love counting money.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc3.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">David</p>
+                                <p class="status5"> I started with nothing, and I still have most of it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc4.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Pradeep</p>
+                                <p class="status5">I need Google in my brain.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-55">
+                        <p class="alphabet-a">A</p>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc1.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Abijith</p>
+                                <p class="status5">Available</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-55">
+                        <p class="alphabet-a">D</p>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc3.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">David</p>
+                                <p class="status5"> I started with nothing, and I still have most of it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc5.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Dev Krishan</p>
+                                <p class="status5">Your👉 # Aττιτυδε in front of me is #Chiller</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-55">
+                        <p class="alphabet-a">F</p>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc6.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Farook</p>
+                                <p class="status5">It’s Better to Be a Lonely Lion Than a Popular Sheep</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-55">
+                        <p class="alphabet-a">P</p>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc7.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Paru</p>
+                                <p class="status5">Kill your Enemies With Your Deadly_Smile.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc4.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Pradeep</p>
+                                <p class="status5">I Don't Look Back Unless There Is a Nice View..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc8.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Praneesh</p>
+                                <p class="status5">A Character Is Who u r When No 1 Is Watching</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-55">
+                        <p class="alphabet-a">R</p>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc9.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Reeshma</p>
+                                <p class="status5">Take me as I am 😌, not as you wish me to be.🧐</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc10.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Rehana</p>
+                                <p class="status5">#_Be_Savage, #Not_Average😎</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-55">
+                        <p class="alphabet-a">S</p>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc11.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">S Rahul</p>
+                                <p class="status5">Smile Because #Nobody Cares About Your #_Tears.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc12.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Salim</p>
+                                <p class="status5">I #Know What You Want to Be, Be the #_World😈.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-55">
+                        <p class="alphabet-a">T</p>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc13.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Tilak</p>
+                                <p class="status5">S!I Have an #Attitude😎bt #Cnditions Apply😈!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc14.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Tamil Arasu</p>
+                                <p class="status5"> I hate people who steal my ideas before I think of them.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-55">
+                        <p class="alphabet-a">U</p>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc15.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Umar</p>
+                                <p class="status5">I Forgive 🤗 But Never Forgot.🤨</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc16.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Ulaganathan</p>
+                                <p class="status5">🤫 Privacy is #Power🔋💪⚡</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-55">
+                        <p class="alphabet-a">V</p>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc17.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Vasu</p>
+                                <p class="status5">But Be #Careful 😳😧 When I’m #Silent…🤨🔥💪</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc18.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Vela</p>
+                                <p class="status5">I Talk 🗣, I #Smile 😄, I Laugh Too 😆…</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc2.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Vishnu</p>
+                                <p class="status5">I hate math, but I love counting money.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-55">
+                        <p class="alphabet-a">Y</p>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc19.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Yadvi</p>
+                                <p class="status5">🙋 I m a Puzzle 🎲, which U can’t Solve 💪😜</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-chat-5">
+                        <div class="new-chat-5-img">
+                            <img src="img/nc12.jpg">
+                        </div>
+                        <div class="new-chat-5-details">
+                            <div class="chat5-name">
+                                <p class="name5">Yazhini</p>
+                                <p class="status5">✊ Now I will do what’s Best for Me. 👍💯💪</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+            <div id="right-click-menu">
+                <ul id="right-click-menu-list">
+                    <li id="rc-menu-1">Archive chat</li>
+                    <li id="rc-menu-1">Mute notifications</li>
+                    <li id="rc-menu-1">Delete chat</li>
+                    <li id="rc-menu-1">Pin chat</li>
+                    <li id="rc-menu-1">Mark as read</li>
+                </ul>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="layer1-right">
+                <div class="phn-connected">
+                    <img src="img/phone-connected-layer1-right.jpg">
+                </div>
+                <div class="heading">
+                    <h1>Keep your phone connected</h1>
+                </div>
+                <div class="l1-cont">WhatsApp connects to your phone to
+                    sync message. To reduce data usage, connect your phone to Wi-Fi.</div>
+                <hr class="l1-right">
+                <div class="windows-avail">
+                    <div class="laptop">
+                        <!-- <i class="fa fa-desktop" aria-hidden="true"></i> -->
+                        <img src="img/laptop.png">
+                    </div>
+                    <div class="wp-availabe">Whatsapp is availabe for Windows.
+                        <a href="" target="_blank">Get it here</a>
+                    </div>
+                </div>
+                <hr class="bottom-green">
+
+
+
+                <div id="c2-jegan">
+                    <div class="c2-abt-top">
+                        <div class="jegan-img">
+                            <img src="img/chat2.jpg">
+                            <p>Jegan vinayak</p>
+                        </div>
+                        <div class="opt">
+                            <img src="img/search.png" class="srh">
+                            <img src="img/menu.png" class="menu-chat">
+                        </div>
+                    </div>
+                    <div class="chat-msg">
+                        <div class="chat-msg-1">
+                            <p class="chat-ind">Hi jegan! How are you doing?<span class="chat-time">12:30 PM</span>
+                                <span><img src="img/double-tick.png" class="tick"></span>
+                            </p>
+                            <img src="img/Screenshot 2021-09-22 123027.png" class="green-tri">
+                        </div>
+                        <div class="chat-msg-2">
+                            <p class="chat-ind1">I’m doing absolutely great. Thanks! How about you? And how 
+                                are you? Are you safe during this pandemic?
+                                <span class="chat-time">12:30 PM</span>
+                            </p>
+                            <img src="img/Screenshot 2021-09-22 123027 - Copy.png" class="green-tria">
+                        </div>
+                        <div class="chat-msg-1">
+                            <p class="chat-ind">Absolutely. I’m taking precautions. By the way, what’s new 
+                                these days?<span class="chat-time">12:30 PM</span>
+                                <span><img src="img/double-tick.png" class="tick"></span>
+                            </p>
+                            <img src="img/Screenshot 2021-09-22 123027.png" class="green-tri">
+                        </div>                        
+                        <div class="chat-msg-2">
+                            <p class="chat-ind1">Well, well, well! As usual, I’m studying for my civil services 
+                                examination which is lined up on May 31st.<span class="chat-time">12:30 PM</span>
+                            </p>
+                            <img src="img/Screenshot 2021-09-22 123027 - Copy.png" class="green-triaa">
+                        </div>
+                        <div class="chat-msg-1">
+                            <p class="chat-ind">I know the date, but don’t you think it will be extended further 
+                                due to the lockdown?<span class="chat-time">12:30 PM</span>
+                                <span><img src="img/double-tick.png" class="tick"></span>
+                            </p>
+                            <img src="img/Screenshot 2021-09-22 123027.png" class="green-tri">
+                        </div>
+                        <div class="chat-msg-2">
+                            <p class="chat-ind1">There are some really good chances of the examination getting postponed 
+                                by at least a month.<span class="chat-time">12:30 PM</span>
+                            </p>
+                            <img src="img/Screenshot 2021-09-22 123027 - Copy.png" class="green-triaa">
+                        </div>
+                        <div class="chat-msg-1">
+                            <p class="chat-ind">How is the situation over there in Delhi?
+                                <span class="chat-time">12:30 PM</span>
+                                <span><img src="img/double-tick.png" class="tick"></span>
+                            </p>
+                            <img src="img/Screenshot 2021-09-22 123027.png" class="green-tri">
+                        </div>
+                        <div class="chat-msg-2">
+                            <p class="chat-ind1"> It is very bad, extremely bad. The positive cases are compounding rapidly.
+                                <span class="chat-time">12:30 PM</span>
+                            </p>
+                            <img src="img/Screenshot 2021-09-22 123027 - Copy.png" class="green-triaa">
+                        </div>
+                        <div class="chat-msg-1">
+                            <p class="chat-ind">Let’s just hope for the best.
+                                <span class="chat-time">12:30 PM</span>
+                                <span><img src="img/double-tick.png" class="tick"></span>
+                            </p>
+                            <img src="img/Screenshot 2021-09-22 123027.png" class="green-tri">
+                        </div>
+
+                    </div>
+                    <div class="c2-abt-bottom">
+                        <div class="rply-icon">
+                            <img src="img/smiley.png" id="chat-smiley">
+                            <img src="img/attached.png" id="chat-attach">
+                        </div>
+                        <div class="type-a-msg">
+                            <input type="text" name="type a message" class="type-msg" id="type-msg" placeholder="Type a message">
+                            <!-- <div class="type-msg">Type a message</div> -->
+                        </div>
+                        <div class="mic">
+                            <img src="img/voice.png" id="chat-mic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <!-- for viewing the status -->
+
+            <div class="status" id="status">
+                <div id="status-inr">
+                    
+                    <div class="bg3"></div>
+                    
+
+                    <div class="status-left">
+                        <div class="status-left1">
+                            <img class="s1" src="img/profile-pic.jpg">
+                            <div class="s-cont">
+                                <span class="s2">My Status</span>
+                                <span class="s3">No updates</span>
+                            </div>
+                        </div>
+                        <div class="status-scroll">
+                            <div class="status-recent">
+                                <hr class="for-recent">
+                                <span class="recent">RECENT</span>
+                            </div>
+                            <div class="status-left2" id="st-lft-2">
+                                <img src="img/s1.jpg" id="status-img">
+                                <div class="s-cont">
+                                    <span class="s22" id="status-name">Ameer</span>
+                                    <span class="s33" id="status-time">today at 8:00 PM</span>
+                                </div>
+                            </div>
+                            <!-- <div class="status-left2">
+                                <img class="s11" src="img/s2.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Sujith</span>
+                                    <span class="s33">today at 6:30 PM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s3.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Manoj</span>
+                                    <span class="s33">today at 5:55 PM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s4.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Naanjil</span>
+                                    <span class="s33">today at 5:33 PM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s5.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Shrejith</span>
+                                    <span class="s33">today at 4:00 PM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s6.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Anto</span>
+                                    <span class="s33">today at 3:18 PM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s7.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Rahul</span>
+                                    <span class="s33">today at 3:15 PM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s8.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Jegan</span>
+                                    <span class="s33">today at 2:55 PM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s9.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Saran</span>
+                                    <span class="s33">today at 2:40 PM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s10.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Novel paul</span>
+                                    <span class="s33">today at 1:20 PM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s11.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Sreelal</span>
+                                    <span class="s33">today at 12:02 PM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s12.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Thushar kousik</span>
+                                    <span class="s33">today at 11:20 AM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s13.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Noyal k joeshep</span>
+                                    <span class="s33">today at 10:09 AM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s14.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Ponkumar</span>
+                                    <span class="s33">today at 8:28 AM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s15.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Selva</span>
+                                    <span class="s33">today at 6:30 AM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s16.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Zubair</span>
+                                    <span class="s33">today at 5:05 AM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s17.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Sekar</span>
+                                    <span class="s33">today at 3:40 AM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s18.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Gokul</span>
+                                    <span class="s33">today at 1:20 AM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s19.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Naveen</span>
+                                    <span class="s33">yesterday at 11:40 PM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s20.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Manoj</span>
+                                    <span class="s33">yesterday at 9:30 PM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s21.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Ramjee</span>
+                                    <span class="s33">yesterday at 8:28 PM</span>
+                                </div>
+                            </div>
+                            <div class="status-left2">
+                                <img class="s11" src="img/s22.jpg">
+                                <div class="s-cont">
+                                    <span class="s22">Vishnu</span>
+                                    <span class="s33">yesterday at 8:20 PM</span>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="status-right">
+                        <div class="close-button">
+                            <img id="close-btn" src="img/cancel.png">
+                        </div>
+                        <div class="status-updates">
+                            <img src="img/focus (1).png">
+                            <p class="click-updates">Click on a contact to view their status updates</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/whatsapp.js"></script>
+    <script src="js/json.js"></script>
+</body>
+
+</html>
